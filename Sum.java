@@ -1,40 +1,18 @@
-// public class Sum {
-//     public static void main(String[] args) {
-//         int sum = 0;
-
-//         for (int i = 1; i <= 10; i++) {
-//             sum += i;
-//         }
-//         System.out.println(sum);
-
-//         sum = 0;
-//         for (int i = 10; i <= 20; i++) {
-//             sum += i;
-//         }
-//         System.out.println(sum);
-
-//         sum = 0;
-//         for (int i = 20; i <= 30; i++) {
-//             sum += i;
-//         }
-//         System.out.println(sum);
+// public class LAB1 {
+//     public static void main (String[]args){
+//         //Q2:Create a new Java project and class. Write a program that displays the message: “Hello, World!”
+//         System.out.println("Hello, World!");
 //     }
 // }
 
-//lets use method for it then;
 
-public class Sum {
-    public static void main(String[] args) {
-      System.out.println("Sum from 0 to 10 is :"+ Sum(0, 10));
-      System.out.println("Sum from 10 to 20 is :" + Sum(10, 20));
-      System.out.println("Sum from 20 to 30 is :" + Sum(20, 30));
-    }
-
-    public static int Sum(int i1, int i2){
-        int sum = 0; 
-        for (int i= i1; i<=i2; i++){
-            sum+= i; 
-        }
-        return sum;
+public class Sum{
+    public static void main(String[]args){
+        int s = 0;
+        // Using for loop to prin the sum
+        for (int i = 1; i<=10;++i){ //the loop goes from 1 to 10 
+            s= s+i; //s+i goes untill the loop ends
+            }
+            System.out.println("Sum of numbers from 1 to 10 is " + s);
     }
 }
